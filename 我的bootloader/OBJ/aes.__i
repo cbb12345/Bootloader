@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\CORE -I..\HARDWARE -I..\STM32_F0Lib\inc -I..\USER
+-I C:\Users\Administrator\Desktop\bootloader(test_0606)\USER\RTE
+-I E:\Software\MDK5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+-I E:\Software\MDK5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX
+-o ..\obj\aes.o --omf_browse ..\obj\aes.crf --depend ..\obj\aes.d "..\HARDWARE\aes.c"

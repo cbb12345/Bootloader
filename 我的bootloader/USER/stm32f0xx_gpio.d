@@ -1,0 +1,16 @@
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\src\stm32f0xx_gpio.c
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_gpio.h
+.\stm32f0xx_gpio.o: ..\USER\stm32f0xx.h
+.\stm32f0xx_gpio.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\stm32f0xx_gpio.o: E:\MDK5\ARM\ARMCC\bin\..\include\stdint.h
+.\stm32f0xx_gpio.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h
+.\stm32f0xx_gpio.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h
+.\stm32f0xx_gpio.o: ..\USER\system_stm32f0xx.h
+.\stm32f0xx_gpio.o: ..\USER\stm32f0xx_conf.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_crc.h
+.\stm32f0xx_gpio.o: ..\USER\stm32f0xx.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_flash.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_gpio.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_rcc.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_usart.h
+.\stm32f0xx_gpio.o: ..\STM32_F0Lib\inc\stm32f0xx_misc.h

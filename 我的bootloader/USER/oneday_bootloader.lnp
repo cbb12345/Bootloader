@@ -1,0 +1,16 @@
+--cpu Cortex-M0
+".\system_stm32f0xx.o"
+".\main.o"
+".\startup_stm32f0xx.o"
+".\stm32f0xx_crc.o"
+".\stm32f0xx_gpio.o"
+".\stm32f0xx_rcc.o"
+".\stm32f0xx_usart.o"
+".\stm32f0xx_misc.o"
+".\stm32f0xx_flash.o"
+".\usart.o"
+".\flash_if.o"
+--strict --scatter ".\oneday_bootloader.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\oneday_bootloader.map" -o .\oneday_bootloader.axf

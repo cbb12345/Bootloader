@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Õ¹·«\Desktop\bootloader\USER\oneday_bootloader.uvproj
+Project File Date:  05/28/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=5536 RO-data=224 RW-data=36 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\oneday_bootloader.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\oneday_bootloader.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+
+..\HARDWARE\usart.c(49): warning:  #550-D: variable "buffer" was set but never used
+        unsigned char buffer=0;
+..\HARDWARE\usart.c: 1 warning, 0 errors
+compiling flash_if.c...
+linking...
+Program Size: Code=5600 RO-data=224 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\oneday_bootloader.axf" - 0 Error(s), 1 Warning(s).
+" - 1 Error(s), 1 Warning(s).
+Target not created
+stm32f0xx_rcc.c...
+..\USER\stm32f0xx.h(5683): error:  #5: cannot open source input file "stm32f0xx_conf.h": No such file or directory
+    #include "stm32f0xx_conf.h"
+..\STM32_F0Lib\src\stm32f0xx_rcc.c: 0 warnings, 1 error
+compiling stm32f0xx_usart.c...
+..\USER\stm32f0xx.h(5683): error:  #5: cannot open source input file "stm32f0xx_conf.h": No such file or directory
+    #include "stm32f0xx_conf.h"
+..\STM32_F0Lib\src\stm32f0xx_usart.c: 0 warnings, 1 error
+compiling stm32f0xx_misc.c...
+..\USER\stm32f0xx.h(5683): error:  #5: cannot open source input file "stm32f0xx_conf.h": No such file or directory
+    #include "stm32f0xx_conf.h"
+..\STM32_F0Lib\src\stm32f0xx_misc.c: 0 warnings, 1 error
+compiling usart.c...
+..\USER\stm32f0xx.h(5683): error:  #5: cannot open source input file "stm32f0xx_conf.h": No such file or directory
+    #include "stm32f0xx_conf.h"
+..\HARDWARE\usart.c: 0 warnings, 1 error
+".\oneday_bootloader.axf" - 7 Error(s), 0 Warning(s).
+Target not created

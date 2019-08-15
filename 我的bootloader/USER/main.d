@@ -1,0 +1,17 @@
+.\main.o: main.c
+.\main.o: ..\HARDWARE\usart.h
+.\main.o: ..\USER\stm32f0xx.h
+.\main.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\main.o: E:\MDK5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h
+.\main.o: E:\MDK5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h
+.\main.o: ..\USER\system_stm32f0xx.h
+.\main.o: ..\USER\stm32f0xx_conf.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_crc.h
+.\main.o: ..\USER\stm32f0xx.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_flash.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_gpio.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_rcc.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_usart.h
+.\main.o: ..\STM32_F0Lib\inc\stm32f0xx_misc.h
+.\main.o: ..\HARDWARE\flash_if.h

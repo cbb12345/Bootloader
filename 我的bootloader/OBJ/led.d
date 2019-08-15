@@ -1,0 +1,16 @@
+..\obj\led.o: ..\HARDWARE\led.c
+..\obj\led.o: ..\HARDWARE\led.h
+..\obj\led.o: ..\USER\stm32f0xx.h
+..\obj\led.o: ..\CORE\core_cm0.h
+..\obj\led.o: E:\Software\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\led.o: ..\CORE\core_cmInstr.h
+..\obj\led.o: ..\CORE\core_cmFunc.h
+..\obj\led.o: ..\USER\system_stm32f0xx.h
+..\obj\led.o: ..\USER\stm32f0xx_conf.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_crc.h
+..\obj\led.o: ..\USER\stm32f0xx.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_flash.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_gpio.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_rcc.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_usart.h
+..\obj\led.o: ..\STM32_F0Lib\inc\stm32f0xx_misc.h
